@@ -1,6 +1,10 @@
 
 ## myman: Sequence of posts by Kevin Kruse starting with 'My man ...'
 
+[![CI](https://github.com/eddelbuettel/myman-py/workflows/ci/badge.svg)](https://github.com/eddelbuettel/myman-py/actions?query=workflow%3Aci)
+[![License](https://img.shields.io/badge/license-GPL%20%28%3E=%202%29-brightgreen.svg?style=flat)](https://opensource.org/license/gpl-2.0) 
+[![Last Commit](https://img.shields.io/github/last-commit/eddelbuettel/myman-py)](https://github.com/eddelbuettel/myman-py)
+
 ### Motivation
 
 Starting on the afternoon of July 17, 2026, and lasting for one initial week, Kevin Kruse fired off
@@ -34,7 +38,8 @@ My man looks like Pat Boone being tased.
 My man looks like a superhero whose power is Bryl Cream.
          -- about Scott Bessent on 2026-08-31
 
-My man looks like he's asked the maitre'd to remove a party of four he finds visually unpleasant.
+My man looks like he's asked the maitre'd to remove a party of \
+four he finds visually unpleasant.
          -- about Scott Bessent on 2026-08-30
 
 ```
