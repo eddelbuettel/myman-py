@@ -3,7 +3,9 @@
 
 [![CI](https://github.com/eddelbuettel/myman-py/workflows/ci/badge.svg)](https://github.com/eddelbuettel/myman-py/actions?query=workflow%3Aci)
 [![License](https://img.shields.io/badge/license-GPL%20%28%3E=%202%29-brightgreen.svg?style=flat)](https://opensource.org/license/gpl-2.0) 
+[![pypi](https://img.shields.io/pypi/v/myman?color=3776ab)](https://pypi.org/project/myman/)
 [![Last Commit](https://img.shields.io/github/last-commit/eddelbuettel/myman-py)](https://github.com/eddelbuettel/myman-py)
+
 
 ### Motivation
 
