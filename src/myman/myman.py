@@ -40,7 +40,7 @@ def format_myman_output(record: Dict) -> str:
     
 def myman(ind: Optional[str] = None,
           target: Optional[str] = None,
-          verbose: Option[bool] = False) -> str:
+          verbose: Optional[bool] = False) -> str:
     """
     Randomly samples a single post (skeet) from the loaded dataset,
     optionally filtering by a target keyword.
