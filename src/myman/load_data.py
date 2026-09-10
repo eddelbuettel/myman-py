@@ -4,7 +4,7 @@ from datetime import datetime
 from typing import List, Dict, Optional
 from importlib import resources
 
-def load_data(verbose: Option[bool] = False) -> List[Dict]:
+def load_data(verbose: Optional[bool] = False) -> List[Dict]:
     """
     Loads the raw 'myman.csv' data using Python's built-in csv module.
 
