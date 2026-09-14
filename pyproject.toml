@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "myman"
-version = "0.0.9"
+version = "0.0.10"
 description = "Draw from Sequence of 'My Man' Posts by Kevin Kruse"
 authors = [
     { name = "Dirk Eddelbuettel", email = "edd@debian.org" }
