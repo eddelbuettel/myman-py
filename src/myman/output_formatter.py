@@ -1,24 +1,5 @@
-from typing import Optional, Dict
-import random
-import re
+from typing import Optional
 from .myman import myman
-
-def format_myman_output(record: Dict) -> str:
-    """
-    Formats the sampled record dictionary into the final display string format.
-    Format: My man [quote].\t -- about [target] on [date]
-    """
-    quote = record['quote']
-    target = record['target']
-    date_obj = record['date_obj']
-    
-    # Date normalization for clean output
-    date_output = date_obj
-    if isinstance(date_obj, str):
-        # Clean up the date string for display consistency
-        date_output = date_obj.split(' ')[0] 
-        
-    return f"My man {quote}.\t -- about {target} on {date_output}"
 
 def run_myman(ind: Optional[str] = None, target: Optional[str] = None) -> str:
     """

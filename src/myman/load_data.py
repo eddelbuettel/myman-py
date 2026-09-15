@@ -1,5 +1,4 @@
 import csv
-import os
 from datetime import datetime
 from typing import List, Dict, Optional
 from importlib import resources
@@ -14,7 +13,7 @@ def load_data(verbose: Optional[bool] = False) -> List[Dict]:
     records: List[Dict] = []
     full_path = resources.files("myman").joinpath("data/myman.csv")
     if verbose:
-        print(f"Loading data from: {os.path.abspath(full_path)}")
+        print(f"Loading data from: {str(full_path)}")
     
     try:
         with open(full_path, mode='r', newline='', encoding='utf-8') as file:

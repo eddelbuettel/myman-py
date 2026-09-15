@@ -19,10 +19,7 @@ where = ["src"]
 [tool.setuptools.package-data]
 mypackage = ["data/*"] 
 
-#[dependency-groups]
-#dev = [
-#    "pytest>=8.3.5",
-#]
-
-[project.optional-dependencies]
-test = ["pytest>=7.0"]
+[dependency-groups]
+dev = [
+    "pytest>=8.3.5",
+]
