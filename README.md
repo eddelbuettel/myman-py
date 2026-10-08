@@ -16,16 +16,18 @@ this post][posttwo] aiming at another government figure. (There were also two st
 interim period.) This was followed on August 17, 2026, with another series starting with [this
 post][postthree]. A fourth wave started on August 27, 2026, with [this post][postfour].  A fifth
 wave started on August 30, 2026, with [this post][postfive]. A sixth wave started on September 4,
-2026 with [this post][postsix]. The total now stands at one thousand three hundred ninety four
-posts.
+2026 with [this post][postsix].  A seventh wave started on September 12, 2026, with [this
+post][postseven]. An eighth wave started Septemer 16, 2026, with [this post][posteight]. A ninth 
+wave started October 1, 2026, with [this post][postnine]. A tenth wave started October 9, 2026, with
+[this post][postten]. The total now stands at one thousand nine hundred eighty four posts.
 
 All posts start with "My man ..." and make for excellent input to a `fortunes`-like package. So this
 small package obliges and offers a random draw each time its `myman()` function is called.  This
 Python package benefits from the corresponding [R package][rpkg] and uses the csv file created and
 packaged there.
 
-The Python package is equivalent to the R in all aspects but one: each call will only return one
-post. 
+The Python package is equivalent to the R in its core aspect but each call will only return one
+post. The R package also has two auxiliary functions.
 
 ### Example
 
@@ -60,5 +62,9 @@ GPL (>= 2)
 [postfour]: https://bsky.app/profile/kevinmkruse.bsky.social/post/3mu3pugs2yk2f
 [postfive]: https://bsky.app/profile/kevinmkruse.bsky.social/post/3mudbzy5ksk25
 [postsix]: https://bsky.app/profile/kevinmkruse.bsky.social/post/3muparqtdkk2w
+[postseven]: https://bsky.app/profile/kevinmkruse.bsky.social/post/3mvdol6xu5k2s
+[posteight]: https://bsky.app/profile/kevinmkruse.bsky.social/post/3mvnmq23nw22y
+[postnine]: https://bsky.app/profile/kevinmkruse.bsky.social/post/3mwtx2jztkk2g
+[postten]: https://bsky.app/profile/kevinmkruse.bsky.social/post/3mx333hlmdc2o
 
 [rpkg]: https://github.com/eddelbuettel/myman
