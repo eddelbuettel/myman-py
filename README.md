@@ -6,7 +6,6 @@
 [![pypi](https://img.shields.io/pypi/v/myman?color=3776ab)](https://pypi.org/project/myman/)
 [![Last Commit](https://img.shields.io/github/last-commit/eddelbuettel/myman-py)](https://github.com/eddelbuettel/myman-py)
 
-
 ### Motivation
 
 Starting on the afternoon of July 17, 2026, and lasting for one initial week, Kevin Kruse fired off
@@ -16,15 +15,15 @@ his][postone] featuring a certain government figure. Additional waves followed: 
 [five][postfive] (August 30, 2026), [six][postsix] (September 4, 2026), [seven][postseven]
 (September 12, 2026), [eighth][posteight] (Septemer 16, 2026), [nine][postnine] (October 1, 2026),
 [ten][postten] (October 4, 2026), [eleven][posteleven] (October 9, 2026), [twelve][posttwelve]
-(October 14, 2026), [thirteen][postthirteen] (October 31, 2026). The total
-now stands at two thousand two hundred eighty four one posts. 
+(October 14, 2026), [thirteen][postthirteen] (October 31, 2026), [fourteen][postfourteen] (November
+10, 2026). The total now stands at two thousand three hundred nine posts.
 
 All posts start with "My man ..." and make for excellent input to a `fortunes`-like package. So this
 small package obliges and offers a random draw each time its `myman()` function is called.  This
 Python package benefits from the corresponding [R package][rpkg] and uses the csv file created and
 packaged there.
 
-The Python package is equivalent to the R in its core aspect but each call will only return one
+The Python package is equivalent to the R package in its core aspect but each call will only return one
 post. The R package also has two auxiliary functions.
 
 ### Example
@@ -67,5 +66,6 @@ GPL (>= 2)
 [posteleven]: https://bsky.app/profile/kevinmkruse.bsky.social/post/3mxgzqblov22r
 [posttwelve]: https://bsky.app/profile/leftistwonk.bsky.social/post/3mxsfblcuh22d
 [postthirteen]: https://bsky.app/profile/kevinmkruse.bsky.social/post/3mz6wwpjpmc2j
+[postfourteen]: https://bsky.app/profile/kevinmkruse.bsky.social/post/3mzyicpp43c2m
 
 [rpkg]: https://github.com/eddelbuettel/myman
